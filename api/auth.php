@@ -88,7 +88,7 @@ $infos = chargerInfosRole($db, $user);
 // --- Redirection selon le rôle ---
 $redirections = [
 'admin' => 'tableau-de-bord.html',
-'professeur' => 'tableau-de-bord.htmls',
+'professeur' => 'tableau-de-bord.html',
 'etudiant' => 'tableau-de-bord.html',
 ];
 
